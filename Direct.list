@@ -10,11 +10,13 @@ DOMAIN-SUFFIX,dnflee.com
 DOMAIN-SUFFIX,boardmix.com
 DOMAIN-SUFFIX,zsjie.com
 DOMAIN-SUFFIX,siliconflow.cn
+DOMAIN-SUFFIX,baidubce.com
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,mirror
 DOMAIN-KEYWORD,boardmix
 DOMAIN-KEYWORD,siliconflow
+DOMAIN-KEYWORD,baidubce.com
 
 # IP段匹配
 IP-CIDR,219.146.1.66/32,no-resolve
