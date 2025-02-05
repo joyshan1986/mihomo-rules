@@ -11,12 +11,14 @@ DOMAIN-SUFFIX,boardmix.com
 DOMAIN-SUFFIX,zsjie.com
 DOMAIN-SUFFIX,siliconflow.cn
 DOMAIN-SUFFIX,baidubce.com
+DOMAIN-SUFFIX,cpolar.top
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,mirror
 DOMAIN-KEYWORD,boardmix
 DOMAIN-KEYWORD,siliconflow
 DOMAIN-KEYWORD,baidubce.com
+DOMAIN-KEYWORD,cpolar.top
 
 # IP段匹配
 IP-CIDR,219.146.1.66/32,no-resolve
