@@ -11,6 +11,16 @@ mihomo (Clash Meta) 自定义规则文件 + VPS 工具脚本备份。
 | `Direct.list` | 直连规则（国内域名、IP 段） |
 | `ProxyLite.list` | 轻量代理规则 |
 | `AI.list` | AI 服务规则（ChatGPT、Claude 等） |
+| `Claude.list` | Claude 专用规则（classical 文本，含域名与 API 入站网段） |
+
+`Claude.list` 使用 `behavior: classical` 和 `format: text`，由配置中的 `RULE-SET` 指定代理组。规则包含 GitHub、npm、Google 存储等共享服务，其他应用访问这些相同域名时也会命中。
+
+本版规则于 2026-11-19 核对，依据为 Claude Code 官方网络要求、Anthropic 官方入站 IP 清单、MetaCubeX 的 Anthropic 域名列表，以及 Net.Coffee 参考页中的补充域名。参考页补充项尚未通过本地实际流量核验。
+
+- https://code.claude.com/docs/en/network-config
+- https://platform.claude.com/docs/en/api/ip-addresses
+- https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/anthropic.list
+- https://ip.net.coffee/claude/site.html
 
 ### OpenClash 中使用
 
